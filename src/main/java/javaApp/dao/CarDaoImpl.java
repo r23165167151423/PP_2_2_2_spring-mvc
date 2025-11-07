@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Repository
-public class CarDaoImpl {
+public class CarDaoImpl implements CarDao {
     private final List<Car> cars = Arrays.asList(
             new Car("BMW", "M5", 2020),
             new Car("Audi", "A6", 2019),
